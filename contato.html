@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/assets/css/style.css">
+
 </head>
 <body>
     
-    <ul>
+    <ul id="menu"> 
         <li>
          <a href="index.html"> Home</a>
         </li>
@@ -17,24 +19,30 @@
         </li>
      </ul>
 
-    <h1>Entre em contato comigo</h1>
+    <h1 class="center">Entre em contato comigo</h1>
 
-    <form>
-        <label for="nome">Nome:</label> <br>
-        <input type="text"id="nome">
-        <br>
-        <br>
-        <label for="email">E-mail:</label> <br>
-        <input type="email"id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto:</label> <br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-
-        <h2>Endereço:</h2>
+    <div class="container mb-50">    
+        <div>
+        
+            <form>
+                <label for="nome">Nome:</label> <br>
+                <input type="text"id="nome">
+                <br>
+                <br>
+                <label for="email">E-mail:</label> <br>
+                <input type="email"id="email">
+                <br>
+                <br>
+                <label for="assunto">Assunto:</label> <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                <br>
+                <br>
+                <button>Enviar</button>
+            </form>
+        </div>
+    
+        <div class="ml-50">
+        
         <p>Av.Paulista, 1000</p>
         <p>São Paulo - SP</p>
 
@@ -43,8 +51,37 @@
         allowfullscreen="" loading="lazy" 
         referrerpolicy="no-referrer-when-downgrade">
         </iframe>
+    </div>
+    </div>
 
-    </form>
+    <hr>
+    <footer>
+
+        <div class="container">
+            <a href="https://www.facebook.com" target="_blank">
+                <img class="tm-social p-30" src="assets/assets/img/facebook.png" alt="Logo do Facebook">
+            </a> 
+
+            <a href="https://www.instagram.com/victoriamello_c/" target="_blank">
+                <img class="tm-social p-30" src="assets/assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+        
+            <a href="https://www.linkedin.com/in/victória-melo-a143b9171/" target="_blank">
+                <img class="tm-social p-30" src="assets/assets/img/linkedin.png" alt="Logo do Linkedin">
+            </a>
+        
+        </div>
+
+        <p class="center">
+            Todos os direitos reservados: Victória Melo &copy
+        </p>
+    </footer>
+
+   
+
+       
+
+  
 
 </body>
 </html>
